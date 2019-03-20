@@ -1,0 +1,26 @@
+{
+  "name": "express-rpc",
+  "version": "1.0.0",
+  "description": "Getting tired of REST and GraphQL and just want to expose some JavaScript functions to clients over HTTP?",
+  "main": "index.js",
+  "bin": {
+    "express-rpc": "index.js"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "express",
+    "rpc",
+    "json",
+    "http"
+  ],
+  "author": "Brian Hammond <brian@fictorial.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  }
+}
