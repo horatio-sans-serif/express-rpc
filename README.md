@@ -19,7 +19,7 @@ express-rpc my_rpcs.js
 ```
 
 ```JavaScript
-# ./example/my_rpcs.js
+// ./example/my_rpcs.js
 
 module.exports = {
   greet: ({ name }) => {

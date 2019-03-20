@@ -1,5 +1,5 @@
 {
-  "name": "express-rpc",
+  "name": "@fictorial/express-rpc",
   "version": "1.0.0",
   "description": "Getting tired of REST and GraphQL and just want to expose some JavaScript functions to clients over HTTP?",
   "main": "index.js",
