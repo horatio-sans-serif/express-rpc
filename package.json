@@ -1,6 +1,6 @@
 {
   "name": "@fictorial/express-rpc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Getting tired of REST and GraphQL and just want to expose some JavaScript functions to clients over HTTP?",
   "main": "index.js",
   "bin": {
