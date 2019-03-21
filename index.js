@@ -21,7 +21,10 @@ if (_.isEmpty(rpcs)) {
   console.error(`ERROR: no RPCs were found: ${rpcs_path}`)
   process.exit(1)
 }
-debug('RPCs:', Object.keys(rpcs).join(', '))
+if (debug.enabled) {
+  const flatten = require('flat')
+  debug('RPCs:', Object.keys(flatten(rpcs)).join(', '))
+}
 
 app.post('/rpc/:rpc', async (req, res, next) => {
   const rpc_name = (req.params.rpc || '').trim()
