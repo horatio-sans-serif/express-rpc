@@ -15,12 +15,14 @@
     "json",
     "http"
   ],
+  "repository": "https://github.com/fictorial/express-rpc",
   "author": "Brian Hammond <brian@fictorial.com>",
   "license": "MIT",
   "dependencies": {
     "debug": "^4.1.1",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
+    "flat": "^4.1.0",
     "lodash": "^4.17.11"
   }
 }
